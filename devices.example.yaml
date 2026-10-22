@@ -5,4 +5,4 @@ devices:
     port: 2201
     username: your_username
     password: your_password
-    command: 'vtysh -c "show running-config"'
+    command: 'vtysh -c "show running-config" 2>/dev/null'

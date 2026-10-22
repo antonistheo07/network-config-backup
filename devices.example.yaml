@@ -1,0 +1,8 @@
+devices:
+  - name: R1
+    device_type: linux          # Netmiko driver; cisco_ios for Cisco IOS
+    host: 127.0.0.1
+    port: 2201
+    username: your_username
+    password: your_password
+    command: 'vtysh -c "show running-config"'
